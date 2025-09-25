@@ -14,6 +14,8 @@ Cantonese phonotactic features including initial, final and tone surprisal value
 
 From the [HKCanCor](https://github.com/fcbond/hkcancor) corpus, the surprisal values for Cantonese initial, final and tones are computed.
 
+Run everything in `code\compute_subsyllabic_surprisal_hkcancor.ipynb` to reproduce the results.
+
 The computation procedures in brief:
 1. Use [pycantonese](https://github.com/jacksonllee/pycantonese) to parse HKCanCor sentences into jyutping
 2. Set `onset` as the initial, merge `nucleus` and `coda` as the final.
@@ -22,8 +24,10 @@ The computation procedures in brief:
 5. The tone surprisal values can then be computed after step 4.
 
 The two output dataframes are:
-1. `hkcancor_initial_final_ipa_surprisal.xlsx` - surprisal values for initials and finals
-2. `hkcancor_tone_surprisal` - surprisal values for tones, conditioned on initials and finals
+1. `output\hkcancor_initial_final_ipa_surprisal.xlsx` - surprisal values for initials and finals
+2. `output\hkcancor_tone_surprisal` - surprisal values for tones, conditioned on initials and finals
+
+The `code\jyutping_ipa_mapping.xlsx` file required for running the code is created manually based on the mapping provided in https://jyutping.org/blog/table/.
 
 Note that these values are thus specific to the HKCanCor corpus, and therefore may not generalize well to other Cantonese speech materials.
 

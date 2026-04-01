@@ -33,4 +33,5 @@ Note that these values are thus specific to the HKCanCor corpus, and therefore m
 
 We appreciate you cite the following paper if it's useful for you:
 
-Ma, M. K.-H., Fong, M. C.-M., Feng, Y., Li, C. P.-H., & Wang, W. S. (2025). More than a feeling: Expressive style influences cortical speech tracking in subjective cognitive decline (No. arXiv:2509.21277). arXiv. https://doi.org/10.48550/arXiv.2509.21277
+Ma, M. K.-H., Feng, Y., Li, C. P.-H., & Fong, M. C.-M. (2026). More than a feeling: Expressive style influences cortical speech tracking in subjective cognitive decline (arXiv:2509.21277). arXiv. https://doi.org/10.48550/arXiv.2509.21277
+
